@@ -1,2 +1,6 @@
-<p>field works!</p>
-<app-life></app-life>
+<canvas #myCanvas [width]="getWidth()" [height]="getHeight()"></canvas><br>
+
+<button (click)="start()">start</button>
+<button (click)="stop()">stop</button>
+<button (click)="random()">random</button>
+steps: {{steps}}
